@@ -13,7 +13,7 @@ export const BusinessPageTemplate = ({
   }) => (
       <div>
         <div>
-        <h1>{title}</h1>
+          <h1>{title}</h1>
         </div>
         <Features gridItems={intro.blurbs} />
       </div>
@@ -64,7 +64,7 @@ export const BusinessPageTemplate = ({
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 2048, quality: 100) {
+                fluid(maxWidth: 500, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }

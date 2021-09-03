@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      { /*<Header siteTitle={data.site.siteMetadata.title} />*/ }
       <div
         style={{
           margin: `0 auto`,
@@ -38,16 +38,16 @@ const Layout = ({ children }) => {
         <nav>
         <Link to="/" style={{ textDecoration: 'none', paddingLeft: 13 }}><img src={"/img/gatsby-icon.png"} alt={"altImage1"} style={{width: "50px"}}></img></Link>
         <Link to="/about" style={{ textDecoration: 'none', paddingLeft: 13 }}>OUR COMPANY</Link>
-        <Link to="/product" style={{ textDecoration: 'none', paddingLeft: 13 }}>OUR BUSINESS</Link>
+        <Link to="/product" style={{ textDecoration: 'none', paddingLeft: 13 }}>OUR BUSINESSES</Link>
         <Link to="/people" style={{ textDecoration: 'none', paddingLeft: 13 }}>OUR PEOPLE</Link>
         <Link to="/joinus" style={{ textDecoration: 'none', paddingLeft: 13 }}>JOIN US</Link>
         </nav>
         <main>{children}</main>
-        <footer>
+        { /*<footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        </footer>*/ }
       </div>
     </>
   )

@@ -98,9 +98,10 @@ export const IndexPageTemplate = ({
       <BackgroundVideo poster="test" videoTitle="test">
         {video && <source src={video} type="video/mp4" />}</BackgroundVideo>
     </section>
+    <br/><br/><br/>
     <section className="section">
       <div className="container">
-        <h2>Our gallery component</h2>
+        <h2>Our gallery </h2>
         <Gallery images={gallery} />
       </div>
     </section>
