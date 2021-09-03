@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
+import downloadFile from '../download/simple_test.pdf'
 
 
 export const AboutPageTemplate = ({
@@ -62,10 +63,7 @@ export const AboutPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title" id="service-title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                  <a href={downloadFile} download>Download the file that is already in your static folder</a>
                   </div>
                 </div>
                 <div className="columns" style={{paddingTop:'200px'}}>
