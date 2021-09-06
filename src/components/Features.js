@@ -25,7 +25,9 @@ const FeatureGrid = ({ gridItems }) => (
     <Carousel className="full-width-md d-none d-md-block">
       {gridItems.map(item => 
       <Carousel.Item>
+        <a href={item.text} target="_blank" rel="noreferrer">
           <PreviewCompatibleImage imageInfo={item} />
+        </a>
       </Carousel.Item>
       )}
   </Carousel>
