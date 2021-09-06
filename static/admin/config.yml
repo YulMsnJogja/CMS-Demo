@@ -56,7 +56,7 @@ collections:
           - { name: video, label: video, widget: file }
           - {label: 'Gallery', name: 'gallery', widget: 'list', media_library: [config: [{multiple: true}]], fields: [{ name: image, label: Image, widget: image }, { name: title, label: Title, widget: string, required: false }]}
           - {label: Description, name: description, widget: string}
-          - {label: FileUpload, name: download, widget: file}
+          - {label: FileUpload, name: downloadfile, widget: file}
       - file: "src/pages/about/index.md"
         label: "OUR COMPANY"
         name: "about"

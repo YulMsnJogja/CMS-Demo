@@ -17,7 +17,7 @@ export const IndexPageTemplate = ({
   intro,
   video,
   gallery,
-  download
+  downloadfile
 }) => (
   <div>
     <div
@@ -118,7 +118,7 @@ export const IndexPageTemplate = ({
     <section>
       <div className="content">
         <div className="tile">
-        <a href={download} download>Download file</a>
+        <a href={downloadfile} download>Download file</a>
         </div>
       </div>
     </section>
@@ -137,7 +137,7 @@ IndexPageTemplate.propTypes = {
   }),
   video: PropTypes.string,
   gallery: PropTypes.array,
-  download: PropTypes.string,
+  downloadfile: PropTypes.string,
 }
 
 const IndexPage = ({ data }) => {
@@ -155,7 +155,7 @@ const IndexPage = ({ data }) => {
         intro={frontmatter.intro}
         video={frontmatter.video}
         gallery={frontmatter.gallery}
-        download={frontmatter.download}
+        downloadfile={frontmatter.downloadfile}
       />
     </Layout>
   )
@@ -206,7 +206,9 @@ export const pageQuery = graphql`
           description
         }
         video
-        download
+        downloadfile {
+          id
+        }
       }
     }
   }
