@@ -126,7 +126,7 @@ export const IndexPageTemplate = ({
 )
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.object,
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
@@ -137,7 +137,7 @@ IndexPageTemplate.propTypes = {
   }),
   video: PropTypes.string,
   gallery: PropTypes.array,
-  downloadfile: PropTypes.string,
+  downloadfile: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 }
 
 const IndexPage = ({ data }) => {
