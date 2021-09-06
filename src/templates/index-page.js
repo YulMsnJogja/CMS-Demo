@@ -2,8 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby'
-import BackgroundVideo from '../components/BackgroundVideo'
+// import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
+// import Video from '../components/Video'
+import { ReactVideo } from "reactjs-media";
 
 export const IndexPageTemplate = ({
   image,
@@ -94,10 +96,16 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
+   
     <section className="BackgroundVideo-section section">
-      <BackgroundVideo poster="test" videoTitle="test">
-        {video && <source src={video} type="video/mp4" />}</BackgroundVideo>
+      <ReactVideo
+          src={video}
+          poster="/img/black.jpg"
+          primaryColor="red"
+          // other props
+      />
     </section>
+
     <br/><br/><br/>
     <section className="section">
       <div className="container">

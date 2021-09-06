@@ -4,7 +4,7 @@ title: Test Product 1
 date: 2021-09-03T09:06:18.823Z
 description: hfdkjshfdskj
 featuredpost: true
-featuredimage: https://ucarecdn.com/d2b62de2-3775-4a2d-8765-79a9e249f8fc/
+featuredimage: /images/4.jpg
 ---
 hshdkshkshfkl
 
