@@ -37,6 +37,8 @@ intro:
         space where you can hang out with fellow coffee lovers and learn about
         coffee making techniques. All of the artwork on display there is for
         sale. The full price you pay goes to the artist.
+    - image: https://ucarecdn.com/8710a001-58f8-4d7d-a7df-b3b9901ed6a8/
+      text: test
   heading: Test Carousel
   description: This Carousel
 ---
