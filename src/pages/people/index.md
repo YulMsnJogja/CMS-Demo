@@ -25,11 +25,11 @@ main:
 intro:
   blurbs:
     - image: /img/3.jpg
-      text: https://facebook.com
+      text: https://cms-demo-example.netlify.app/product/testing-product/
     - image: /img/5.jpg
-      text: https://google.com
+      text: https://cms-demo-example.netlify.app/product/test/
     - image: /img/5.jpg
-      text: https://www.cdge.com.sg/
+      text: https://cms-demo-example.netlify.app/product/test-product-1/
   heading: Test Carousel
   description: This Carousel
 ---
