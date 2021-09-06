@@ -60,23 +60,23 @@ main:
     optimal for the plants, farmers and the local environment.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/CSR.jpg
+    image: /img/1.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/Join_Us.jpg
+    image: /img/2.jpg
   image3:
     alt: Coffee beans
-    image: /img/Our_Company.jpg
+    image: /img/3.jpg
 video: https://ucarecdn.com/73463472-f14d-4ad9-a3c8-61eac43ab954/
 gallery:
   - alt: yellow rope image
-    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
+    image: /img/1.jpg
     title: Yellow Rope
   - alt: umbrellas
-    image: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
+    image: /img/2.jpg
     title: a bunch of umbrellas
   - alt: yellow ice cream
-    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
+    image: /img/3.jpg
     title: Yellow Ice Cream
-download: /file/simple_test.pdf
+download: /img/simple_test.pdf
 ---
