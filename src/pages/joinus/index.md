@@ -1,7 +1,7 @@
 ---
 templateKey: joinus-page
 path: /join-us
-title: JOIN US
+title: JOIN WITH US
 subheading: At the heart of Singapore's largest passenger car workshop is a
   dedicated and committed team that strives for exc testingellence. Our
   900-strong team believes in working towards a shared vision making
