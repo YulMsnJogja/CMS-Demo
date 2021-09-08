@@ -137,7 +137,7 @@ IndexPageTemplate.propTypes = {
   }),
   video: PropTypes.string,
   gallery: PropTypes.array,
-  downloadfile: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  downloadfile: PropTypes.string,
 }
 
 const IndexPage = ({ data }) => {
@@ -206,9 +206,7 @@ export const pageQuery = graphql`
           description
         }
         video
-        downloadfile {
-          id
-        }
+        downloadfile
       }
     }
   }

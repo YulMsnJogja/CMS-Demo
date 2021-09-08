@@ -1,9 +1,58 @@
 ---
 templateKey: index-page
 title: CMS Demo Example
-image: /img/6.jpg
+image: /img/1.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
+menuImage:
+  image1:
+    image: https://ucarecdn.com/74f00b26-6241-4a2b-9d73-7896afd0c4fb/
+    alt: test
+  image2:
+    image: https://ucarecdn.com/770386cb-0714-4f50-80af-15198f7171b3/
+    alt: test
+  image3:
+    alt: test
+    image: https://ucarecdn.com/32a5726e-0228-473c-86dc-e49d9bfcd6c3/
+  image4:
+    image: https://ucarecdn.com/69f8fcc6-5ebb-4f29-bdad-c66420bb4166/
+    alt: test
+  image5:
+    image: https://ucarecdn.com/7f26964a-3ae9-4e9e-9f5a-732a7f2aa094/
+    alt: test
+  image6:
+    image: https://ucarecdn.com/08814a96-8d73-4091-94e9-05097eb1076b/
+    alt: test
+main:
+  heading: Great coffee with no compromises
+  description: >
+    We hold our coffee to the highest standards from the shrub to the cup.
+    That’s why we’re meticulous and transparent about each step of the coffee’s
+    journey. We personally visit each farm to make sure the conditions are
+    optimal for the plants, farmers and the local environment.
+  image1:
+    alt: A close-up of a paper filter filled with ground coffee
+    image: /img/1.jpg
+  image2:
+    alt: A green cup of a coffee on a wooden table
+    image: /img/2.jpg
+  image3:
+    alt: Coffee beans
+    image: /img/3.jpg
+  image4:
+    image: https://ucarecdn.com/f329a1d6-e507-4bf4-9ed4-ac698a3f23c6/
+    alt: testing
+gallery:
+  - alt: yellow rope image
+    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
+    title: Yellow Rope
+  - alt: umbrellas
+    image: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
+    title: a bunch of umbrellas
+  - alt: yellow ice cream
+    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
+    title: Yellow Ice Cream
+downloadfile: https://ucarecdn.com/fefc203e-98f2-43c8-881b-c824452caf87/
 mainpitch:
   title: Why Kaldi
   description: >
@@ -11,11 +60,6 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
 intro:
   blurbs:
     - image: /img/2.jpg
@@ -51,32 +95,9 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/1.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/3.jpg
 video: https://ucarecdn.com/73463472-f14d-4ad9-a3c8-61eac43ab954/
-gallery:
-  - alt: yellow rope image
-    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
-    title: Yellow Rope
-  - alt: umbrellas
-    image: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
-    title: a bunch of umbrellas
-  - alt: yellow ice cream
-    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
-    title: Yellow Ice Cream
-downloadfile: /img/simple_test.pdf
+description: Kaldi is the ultimate spot for coffee lovers who want to learn
+  about their java’s origin and support the farmers that grew it. We take coffee
+  production, roasting and brewing seriously and we’re glad to pass that
+  knowledge to anyone.
 ---
