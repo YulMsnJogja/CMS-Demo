@@ -206,7 +206,9 @@ export const pageQuery = graphql`
           description
         }
         video
-        downloadfile
+        downloadfile {
+          fluid
+        }
       }
     }
   }
