@@ -207,7 +207,9 @@ export const pageQuery = graphql`
         }
         video
         downloadfile {
-          fluid
+          fluid(maxWidth: 240, quality: 64) {
+            ...GatsbyImageSharpFluid
+          }
         }
       }
     }
