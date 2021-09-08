@@ -30,6 +30,8 @@ intro:
       text: https://cms-demo-example.netlify.app/product/test
     - image: /img/5.jpg
       text: https://cms-demo-example.netlify.app/product/test-product-1
+    - image: https://ucarecdn.com/97cf0509-716e-49ae-93fe-ffbc14faaaa7/
+      text: https://cms-demo-example.netlify.app/product/test/
   heading: Test Carousel
   description: This Carousel
 ---
