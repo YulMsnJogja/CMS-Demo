@@ -4,6 +4,11 @@ title: CMS Demo Example
 image: /img/6.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
+video: https://ucarecdn.com/73463472-f14d-4ad9-a3c8-61eac43ab954/
+media:
+  - https://ucarecdn.com/5bf445e2-a370-41f5-b2f8-e244b15ffecd/
+  - https://ucarecdn.com/b3833814-e99f-40e4-8b11-a3a83e5c224b/
+downloadfile: /files/simple_test.pdf
 mainpitch:
   title: Why Kaldi
   description: >
@@ -11,11 +16,6 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
 intro:
   blurbs:
     - image: /img/2.jpg
@@ -38,7 +38,7 @@ intro:
         to help. You can schedule a custom 1-on-1 consultation with our baristas
         to learn anything you want to know about coffee roasting and brewing.
         Email us or call the store for details.
-    - image: /img/5.jpg
+    - image: /img/4.jpg
       text: >
         We believe that good coffee has the power to bring people together.
         That’s why we decided to turn a corner of our shop into a cozy meeting
@@ -51,23 +51,6 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/1.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/3.jpg
-video: https://ucarecdn.com/73463472-f14d-4ad9-a3c8-61eac43ab954/
 gallery:
   - alt: yellow rope image
     image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
@@ -78,5 +61,24 @@ gallery:
   - alt: yellow ice cream
     image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
     title: Yellow Ice Cream
-downloadfile: /img/simple_test.pdf
+main:
+  heading: Great coffee with no compromises
+  description: >
+    We hold our coffee to the highest standards from the shrub to the cup.
+    That’s why we’re meticulous and transparent about each step of the coffee’s
+    journey. We personally visit each farm to make sure the conditions are
+    optimal for the plants, farmers and the local environment.
+  image1:
+    alt: A close-up of a paper filter filled with ground coffee
+    image: /img/CSR.jpg
+  image2:
+    alt: A green cup of a coffee on a wooden table
+    image: /img/Join_Us.jpg
+  image3:
+    alt: Coffee beans
+    image: /img/Our_Company.jpg
+description: Kaldi is the ultimate spot for coffee lovers who want to learn
+  about their java’s origin and support the farmers that grew it. We take coffee
+  production, roasting and brewing seriously and we’re glad to pass that
+  knowledge to anyone.
 ---
