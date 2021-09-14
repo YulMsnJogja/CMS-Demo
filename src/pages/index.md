@@ -61,8 +61,6 @@ gallery:
   - alt: yellow ice cream
     image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
     title: Yellow Ice Cream
-  - image:
-      - https://ucarecdn.com/5e42f8fc-af37-44a8-a7f9-86db0161580d/
 main:
   heading: Great coffee with no compromises
   description: >
