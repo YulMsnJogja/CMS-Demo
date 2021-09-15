@@ -7,7 +7,7 @@ import JoinusPagePreview from "./preview-templates/JoinusPagePreview";
 import ProductPostPreview from "./preview-templates/ProductPostPreview";
 import uploadcare from 'netlify-cms-media-library-uploadcare'
 //import { CustomWidgetControl, CustomWidgetPreview } from '../components/customWidget';
-import { CkeditorControl, CkeditorPreview } from 'netlify-cms-widget-ckeditor'
+import { CkeditorControl, CkeditorPreview } from 'netlify-cms-widget-ckeditor4'
 
 CMS.registerWidget('mywidget', CkeditorControl, CkeditorPreview);
 CMS.registerMediaLibrary(uploadcare);
