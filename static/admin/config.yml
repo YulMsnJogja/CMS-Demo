@@ -38,7 +38,7 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: Body, name: body, widget: mywidget}
 
   - name: "pages"
     label: "Pages"
@@ -64,7 +64,7 @@ collections:
           #     config:
           #       multiple: true
           - {label: 'Gallery', name: 'gallery', widget: 'list', fields: [{ name: image, label: Image, widget: image, multiple: true }, { name: title, label: Title, widget: string, required: false }]}
-          - {label: Description, name: description, widget: mywidget}
+          - {label: Description, name: description, widget: string}
           - {label: FileUpload, name: downloadfile, widget: file, media_library: [{ media_folder: "/static/files"}]}
       - file: "src/pages/about/index.md"
         label: "OUR COMPANY"
