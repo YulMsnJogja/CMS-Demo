@@ -53,10 +53,7 @@ image: /img/6.jpg
 video: https://ucarecdn.com/73463472-f14d-4ad9-a3c8-61eac43ab954/
 gallery:
   - alt: yellow rope image
-    image:
-      - https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
-      - https://ucarecdn.com/2dfe72b4-cf78-4eff-89e6-9071ea7668ad/
-      - https://ucarecdn.com/04e4deb7-2161-4907-b46f-8f32205f70a7/
+    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
     title: Yellow Rope
   - alt: umbrellas
     image: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
