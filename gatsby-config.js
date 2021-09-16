@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`
+})
+
 module.exports = {
   siteMetadata: {
     title: `CMS Demo Example`,
@@ -10,7 +14,7 @@ module.exports = {
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
         trackingIds: [
-          "G-GE94F86VQZ", // Google Analytics / GA
+          process.env.GA_MEASUREMENT_ID, // Google Analytics / GA
         ],
         // This object is used for configuration specific to this plugin
         pluginConfig: {
