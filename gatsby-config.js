@@ -18,7 +18,7 @@ module.exports = {
           head: true
         },
       },
-    },,
+    },
     'gatsby-plugin-react-helmet',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
