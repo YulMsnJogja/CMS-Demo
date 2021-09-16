@@ -6,6 +6,7 @@ import { CKEditor } from 'ckeditor4-react';
 export class CustomWidgetControl extends PureComponent {
 
   onChange = (event, editor) => {
+    console.log(event)
     const data = event.editor.getData();
     this.props.onChange(data);
   }
@@ -13,7 +14,7 @@ export class CustomWidgetControl extends PureComponent {
   render() {
     return (
       <CKEditor 
-        // initData={<p>This is an example CKEditor </p>}
+        //initData={data}
         onChange={this.onChange}
         editorUrl="https://cdn.ckeditor.com/4.16.0/full-all/ckeditor.js"
         config={ {
