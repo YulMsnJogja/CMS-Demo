@@ -9,7 +9,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+        trackingId: "G-GE94F86VQZ",
+        head: false,
       },
     },
     'gatsby-plugin-react-helmet',
