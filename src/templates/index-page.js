@@ -6,6 +6,7 @@ import { graphql } from 'gatsby'
 import Gallery from '../components/Gallery'
 // import Video from '../components/Video'
 import { ReactVideo } from "reactjs-media";
+import { withMixpanel } from 'gatsby-plugin-mixpanel'
 
 export const IndexPageTemplate = ({
   image,
@@ -135,6 +136,8 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
+  const { mixpanel } = this.props
+        mixpanel.track('Home Page');
 
   return (
     <Layout>
@@ -162,7 +165,7 @@ IndexPage.propTypes = {
   }),
 }
 
-export default IndexPage
+export default withMixpanel()(IndexPage)
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
