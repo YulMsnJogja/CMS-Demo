@@ -100,7 +100,7 @@ export const IndexPageTemplate = ({
           poster="/img/black.jpg"
           primaryColor="red"
           // other props
-          onClick={() => tracking.track('Start Video') }
+          onPlay={() => tracking.track('Start Video') }
       />
     </section>
 
