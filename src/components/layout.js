@@ -59,11 +59,11 @@
            <div style={{ width: '50px'}}>
              <Player
                //hover={true}
-               //autoplay={false}
+               autoplay={false}
                loop
                src="https://assets2.lottiefiles.com/private_files/lf30_p9cis9ii.json"
                style={{ height: '80px', width: '80px' }}
-               onClick={() => play()}
+               onEvent={() => play()}
              >
                <Controls visible={false} />
              </Player>
