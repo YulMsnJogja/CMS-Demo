@@ -63,7 +63,7 @@
                loop
                src="https://assets2.lottiefiles.com/private_files/lf30_p9cis9ii.json"
                style={{ height: '80px', width: '80px' }}
-               onEvent={() => play()}
+               onEvent={event => {play()}}
              >
                <Controls visible={false} />
              </Player>
