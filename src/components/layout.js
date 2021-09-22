@@ -49,8 +49,8 @@
                style={{ height: '80px', width: '80px' }}
              >
                <Controls visible={false} />
-               <h1>OUR COMPANY</h1>
              </Player>
+             <h3>OUR COMPANY</h3>
             </div>
            </div>
          </Link>
