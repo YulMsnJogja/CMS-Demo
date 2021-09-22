@@ -40,7 +40,7 @@
          <Link to="/" style={{ textDecoration: 'none', paddingLeft: 13 }}><img src={"/img/gatsby-icon.png"} alt={"altImage1"} style={{width: "50px"}}></img></Link>
          <Link to="/about" style={{ textDecoration: 'none' }}>
            <div className="menubar">
-           <div style={{ width: '50px'}}>
+            <div style={{ width: '50px'}}>
              <Player
                hover={true}
                autoplay={false}
@@ -49,26 +49,25 @@
                style={{ height: '80px', width: '80px' }}
              >
                <Controls visible={false} />
+               <h1>OUR COMPANY</h1>
              </Player>
-           </div>
-             OUR COMPANY
+            </div>
            </div>
          </Link>
          <Link to="/product" style={{ textDecoration: 'none' }}>
            <div className="menubar">
            <div style={{ width: '50px'}}>
              <Player
-               //hover={true}
+               hover={true}
                autoplay={false}
                loop
                src="https://assets2.lottiefiles.com/private_files/lf30_p9cis9ii.json"
                style={{ height: '80px', width: '80px' }}
-               onEvent={event => {play()}}
              >
                <Controls visible={false} />
+               <h1>OUR BUSINESSES</h1>
              </Player>
            </div>
-             OUR BUSINESSES
            </div>
          </Link>
          <Link to="/people" style={{ textDecoration: 'none' }}>
