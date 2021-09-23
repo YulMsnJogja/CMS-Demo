@@ -51,7 +51,7 @@ intro:
 title: CMS Demo Example
 image: /img/6.jpg
 video: https://ucarecdn.com/73463472-f14d-4ad9-a3c8-61eac43ab954/
-gallery: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
+gallery: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
   # - alt: yellow rope image
   #   image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
   #   title: Yellow Rope

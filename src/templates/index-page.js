@@ -173,7 +173,6 @@ export default IndexPage
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      ...Gallery
       frontmatter {
         title
         image {
@@ -206,6 +205,13 @@ export const pageQuery = graphql`
         }
         video
         downloadfile
+        gallery {
+          childImageSharp {
+            fluid(maxWidth: 240, quality: 64) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
