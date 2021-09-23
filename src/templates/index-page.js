@@ -205,13 +205,7 @@ export const pageQuery = graphql`
         }
         video
         downloadfile
-        gallery {
-          childImageSharp {
-            fluid(maxWidth: 240, quality: 64) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        gallery
       }
     }
   }
