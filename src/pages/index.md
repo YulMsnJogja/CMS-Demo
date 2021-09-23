@@ -51,16 +51,16 @@ intro:
 title: CMS Demo Example
 image: /img/6.jpg
 video: https://ucarecdn.com/73463472-f14d-4ad9-a3c8-61eac43ab954/
-gallery:
-  - alt: yellow rope image
-    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
-    title: Yellow Rope
-  - alt: umbrellas
-    image: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
-    title: a bunch of umbrellas
-  - alt: yellow ice cream
-    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
-    title: Yellow Ice Cream
+gallery: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
+  # - alt: yellow rope image
+  #   image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
+  #   title: Yellow Rope
+  # - alt: umbrellas
+  #   image: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
+  #   title: a bunch of umbrellas
+  # - alt: yellow ice cream
+  #   image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
+  #   title: Yellow Ice Cream
 main:
   heading: Great coffee with no compromises
   description: >

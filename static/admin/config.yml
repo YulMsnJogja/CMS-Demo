@@ -59,13 +59,8 @@ collections:
              label: "Gallery",
              name: "media",
              widget: "image",
-             allow_multiple: true,
-             choose_url: false,
-             media_library:
-               config:
-                 multiple: true
+             allow_multiple: true
             }
-          
           # - {label: 'Gallery', name: 'gallery', widget: 'list', fields: [{ name: image, label: Image, widget: image, multiple: true }, { name: title, label: Title, widget: string, required: false }]}
           - {label: Description, name: description, widget: string}
           - {label: FileUpload, name: downloadfile, widget: file, media_library: [{ media_folder: "/static/files"}]}
